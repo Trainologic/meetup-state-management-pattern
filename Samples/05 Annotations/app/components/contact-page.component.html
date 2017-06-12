@@ -1,0 +1,12 @@
+<h1>Contact List</h1>
+
+<div class="buttons">
+    <button (click)="refresh()">Refresh</button>
+    <button (click)="toggle()">Toggle</button>
+</div>
+
+<my-contact-search></my-contact-search>
+
+<my-contact-list *ngIf="state.showList"></my-contact-list>
+
+<my-status></my-status>

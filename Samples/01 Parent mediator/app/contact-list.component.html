@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let contact of contacts">
+        <my-contact-list-item [contact]="contact" (selectionChanged)="onSelectionChanged($event)"></my-contact-list-item>
+    </li>
+</ul>

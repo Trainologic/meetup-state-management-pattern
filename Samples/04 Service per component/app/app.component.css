@@ -1,0 +1,9 @@
+:host {
+    display: block;
+}
+
+:host /deep/ my-contact-page {
+    vertical-align: top;
+    margin-right: 3em;
+}
+

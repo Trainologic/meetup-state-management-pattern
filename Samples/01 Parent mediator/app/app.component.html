@@ -1,0 +1,9 @@
+<h1>Contact List</h1>
+
+<my-contact-list [contacts]="contacts"
+                 (selectionChanged)="onSelectionChanged($event)">
+</my-contact-list>
+
+<my-status [all]="contacts"
+           [selected]="selected">
+</my-status>

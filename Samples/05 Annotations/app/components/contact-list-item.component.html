@@ -1,0 +1,6 @@
+<label>
+    <span>{{contact.name}}</span>
+    <input type="checkbox"
+           [checked]="isSelected(contact)"
+           (click)="changeSelection(contact, $event.target.checked)">
+</label>

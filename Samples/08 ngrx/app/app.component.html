@@ -1,0 +1,10 @@
+<div>
+    <button (click)="refresh()">Refresh</button>
+    <button (click)="noop()">Noop</button>
+</div>
+
+<ul>
+    <li *ngFor="let contact of contacts | async">
+        <span>{{contact.name}}</span>
+    </li>
+</ul>
